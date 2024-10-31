@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "Coco Gothic";
-  src: url("fonts/CocoGothic.woff2") format("woff2"),
-    url("fonts/CocoGothic.woff") format("woff"),
-    url("fonts/CocoGothic.ttf") format("truetype");
+  src: url("fonts/fonts/CocoGothic.woff2") format("woff2"),
+    url("fonts/fonts/CocoGothic.woff") format("woff"),
+    url("fonts/fonts/CocoGothic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
