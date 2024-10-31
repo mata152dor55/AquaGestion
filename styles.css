@@ -71,11 +71,12 @@ h3 {
 }
 
 .boton-amarillo {
+  display: inline-block;
   background-color: #f9bc60;
   color: #004643;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
   font-size: 1rem;
   margin-top: 10px;
