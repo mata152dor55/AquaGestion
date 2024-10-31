@@ -24,3 +24,11 @@ body {
   justify-content: space-between;
   padding: 0 20px;
 }
+
+.opciones {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1650px;
+}
