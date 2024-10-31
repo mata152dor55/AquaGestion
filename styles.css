@@ -32,3 +32,15 @@ body {
   width: 100%;
   max-width: 1650px;
 }
+
+.opciones li a {
+  display: block;
+  padding: 15px 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: gray;
+  text-decoration: underline;
+}
