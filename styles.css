@@ -43,7 +43,7 @@ body {
   text-decoration: none;
 }
 
-.menu li a:hover {
+.opciones li a:hover {
   color: gray;
   text-decoration: underline;
 }
