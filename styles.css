@@ -13,6 +13,7 @@ body {
   background-color: #e3f2fd;
   height: 100%;
   font-family: "Coco Gothic", sans-serif;
+  margin: 0;
 }
 
 .topheader {
@@ -48,6 +49,9 @@ body {
 }
 
 .titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
