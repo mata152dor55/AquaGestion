@@ -69,3 +69,20 @@ h2 {
 h3 {
   color: #000000;
 }
+
+.boton {
+  text-align: center;
+}
+
+.boton_amarillo {
+  background-color: #f9bc60;
+  color: #004643;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.boton_amarillo :hover {
+  background-color: #f39c36;
+}
