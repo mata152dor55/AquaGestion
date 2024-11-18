@@ -1,52 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AquaGestion</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="img/logoaqua.PNG" alt="Logo" />
-      </div>
-      <nav>
-        <a href="#">QUIÉNES SOMOS?</a>
-        <a href="#">NUESTRA MISIÓN</a>
-        <a href="#">FUNCIONALIDADES PRINCIPALES</a>
-      </nav>
-      <a href="#" class="sign-in">SIGN IN</a>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AquaGestion</title>
+        <link rel="stylesheet" href="/styles/styles.css" />
+    </head>
 
-    <main>
-      <div class="side-image left">
-        <img src="img/pngwing.com (7).png" alt="Planta" />
-      </div>
-      <div class="content">
-        <h1>¿SABES CUÁNTA AGUA CONSUMES?</h1>
+    <body>
+        <header>
+            <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox">
+                <div></div>
+            </label>
 
-        <p class="subtext">
-          Nos especializamos en ayudar a las personas que deseen ahorrar agua
-        </p>
-        <button>Descargar aplicación</button>
-      </div>
+            <div class="logo">
+                <a href="../test/index.html"
+                    ><img src="img/logoaqua.PNG" alt="Logo"
+                /></a>
+            </div>
 
-      <div class="side-image right">
-        <img src="img/pngwing.com (6).png" alt="Caño" />
-      </div>
-    </main>
+            <nav class="menu">
+                <ul>
+                    <li><a href="pages/who.html">¿QUIÉNES SOMOS?</a></li>
+                    <li><a href="">NUESTRA MISIÓN</a></li>
+                    <li><a href="">FUNCIONALIDADES PRINCIPALES</a></li>
+                </ul>
+            </nav>
 
-    <footer>
-      <div class="social-icons">
-        <a href="#"><img src="img/icons8-facebook-48.png" alt="Facebook" /></a>
-        <a href="#"
-          ><img src="img/icons8-instagram-48.png" alt="Instagram"
-        /></a>
-        <a href="#"><img src="img/icons8-x-48.png" alt="X" /></a>
-        <a href="#"><img src="img/icons8-tik-tok-48.png" alt="TikTok" /></a>
-        <a href="#"><img src="img/icons8-youtube-48.png" alt="YouTube" /></a>
-      </div>
-    </footer>
-  </body>
+            <div>
+                <a href="#" class="sign-in">SIGN IN</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="side-image left">
+                <img src="img/plants.png" alt="Planta" />
+            </div>
+            <div class="content">
+                <h1>¿SABES CUÁNTA AGUA CONSUMES?</h1>
+
+                <p class="subtext">
+                    AquaGestion es una aplicación que te ayudará a combatir el
+                    alto consumo de agua que realizas en tu día a de agua.
+                    partir de un registro de tu consumo en tiempo real. Descarga
+                    ya la aplicación para disminuir tu consumo de agua.
+                </p>
+                <a
+                    href="https://play.google.com/store/apps?hl=es_419"
+                    target="_blank"
+                    ><button>Descargar aplicación</button></a
+                >
+            </div>
+
+            <div class="side-image right">
+                <img src="img/steam.png" alt="Caño" />
+            </div>
+        </main>
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"
+                    ><img src="img/icons8-facebook-48.png" alt="Facebook"
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                    ><img src="img/icons8-instagram-48.png" alt="Instagram"
+                /></a>
+                <a href="https://x.com/" target="_blank"
+                    ><img src="img/icons8-x-48.png" alt="X"
+                /></a>
+                <a href="https://www.tiktok.com/" target="_blank"
+                    ><img src="img/icons8-tik-tok-48.png" alt="TikTok"
+                /></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                    ><img src="img/icons8-youtube-48.png" alt="YouTube"
+                /></a>
+            </div>
+        </footer>
+    </body>
 </html>
